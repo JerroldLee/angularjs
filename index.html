@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html ng-app="optionalModuleName">
+<!doctype html>
+<html ng-app="drag">
+  <head>
+
+  </head>
   <body>
-    I can add: {{ 1+2 }}
-    <script src="angular.js"></script>
-    <script>
-        angular.element(document).ready(function() {
-          angular.bootstrap(document);
-        });
-    </script>
+    <span draggable>Drag ME</span>
+
+    <footer>
+      <script src="angular.min.js"></script>
+      <script src="script.js"></script>
+    </footer>
   </body>
 </html>
